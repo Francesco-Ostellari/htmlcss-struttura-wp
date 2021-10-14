@@ -31,7 +31,6 @@ body {
 /* layoout main */
 main {
   width: 80%;
-  height: 550px;
   margin: 30px auto 0;
   background: #0086FF;
 }
@@ -53,36 +52,39 @@ main {
 .right-column {
   height: 430px;
   background: #ABCFE7;
+  margin: 10px 0px 10px 10px;;
 }
 .left-column {
-  margin: 20px 10px 20px 0;
-}
-.right-column {
-  margin: 20px 0 20px 10px;
+  margin-left: 0;
 }
 
 .centre-column-one {
   height: 430px;
   background: #ABCFE7;
-  margin: 20px;
+  margin: 10px 0px 10px 10px;
 }
 
 .centre-column-two {
   height: 430px;
   background: #ABCFE7;
-  margin: 20px;
+  margin: 10px 0px 10px 10px;
 }
 
 .centre-column-three {
   height: 430px;
   background: #ABCFE7;
-  margin: 20px;
+  margin: 10px 0px 10px 10px;
 }
 
 
 [class*="-column"] {
    float: left;  
-   width: calc(100%/5 - 40px);
+   width: calc(20% - 8px);
+}
+
+.centre-column-one, 
+.centre-column-three {
+  background: rgb(90, 255, 90);
 }
 
 /* end layout main */
