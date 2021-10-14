@@ -51,22 +51,38 @@ main {
 
 .left-column, 
 .right-column {
-  width: 21.5%;
   height: 430px;
   background: #ABCFE7;
-  margin: 20px 0 20px 0;
+}
+.left-column {
+  margin: 20px 10px 20px 0;
+}
+.right-column {
+  margin: 20px 0 20px 10px;
 }
 
-.centre-column {
-  width: calc(57% - 20px);
+.centre-column-one {
   height: 430px;
   background: #ABCFE7;
-  margin: 20px 10px;
+  margin: 20px;
+}
+
+.centre-column-two {
+  height: 430px;
+  background: #ABCFE7;
+  margin: 20px;
+}
+
+.centre-column-three {
+  height: 430px;
+  background: #ABCFE7;
+  margin: 20px;
 }
 
 
 [class*="-column"] {
    float: left;  
+   width: calc(100%/5 - 40px);
 }
 
 /* end layout main */
