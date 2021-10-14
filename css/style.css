@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* header and navigation */
 body {
   font-size: 100%;
 }
@@ -25,4 +25,27 @@ body {
   height: 500px;
   margin: 30px auto 0;
   background:#E1D67A;
+}
+/* end header and navigation */
+
+main {
+  width: 80%;
+  height: 550px;
+  margin: 30px auto 0;
+  background: #0086FF;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+.footer {
+  width: 80%;
+  height: 60px;
+  margin: 30px auto 30px;
+  background: #8801FE;
 }
