@@ -49,28 +49,24 @@ main {
 
 }
 
-.left-column {
-  width: 21.5%;
-  height: 430px;
-  background: #ABCFE7;
-  margin: 20px 0 20px 0;
-  float: left;
-}
-
-.centre-column {
-  width: 55%;
-  height: 430px;
-  background: #ABCFE7;
-  margin: 20px 1%;
-  float: left;
-}
-
+.left-column, 
 .right-column {
   width: 21.5%;
   height: 430px;
   background: #ABCFE7;
   margin: 20px 0 20px 0;
-  float: left;
+}
+
+.centre-column {
+  width: calc(57% - 20px);
+  height: 430px;
+  background: #ABCFE7;
+  margin: 20px 10px;
+}
+
+
+[class*="-column"] {
+   float: left;  
 }
 
 /* end layout main */
